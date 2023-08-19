@@ -1,0 +1,71 @@
+*{
+    margin: 0; padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:black ;
+    
+    
+}
+.container{
+    height: 500px;
+    width: 360px;
+    background-color: gainsboro;
+    padding: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    overflow-y: auto;
+    border-radius: 10px;
+    border: 2px solid black;
+ 
+}
+#input{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: gainsboro;
+    padding: 0 10px;
+    margin: 15px 0;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+
+}
+ul li{
+    height: 40px;
+    color:  black;
+    margin: 10px 0;
+    padding: 10px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+
+}
+ul .bi-check-lg , .bi-trash{
+    cursor: pointer;
+    position: absolute;
+}
+ul .bi-check-lg{
+    right: 40px;
+    color: green;
+    font-weight: 100;
+    font-size: large;
+}
+ul .bi-trash{
+    right: 15px;
+    color: red;
+    font-weight: 100;
+    font-size: large;
+}
+ ul .checked{
+    background-color: lightgreen;
+    text-decoration: line-through;
+    transition: 2s;
+} 
